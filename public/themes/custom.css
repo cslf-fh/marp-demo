@@ -1,0 +1,12 @@
+/* @theme custom */
+
+@import 'gaia';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+
+section {
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+}
+
+section.top h2 {
+  color: #fff;
+}
