@@ -258,3 +258,5 @@ JSON
 [Marp(Marpit)](https://qiita.com/takeshisakuma/items/5a61e6eac123d28602fb)
 
 [Markdown 記法 サンプル集](https://qiita.com/tbpgr/items/989c6badefff69377da7)
+
+[【GithubActions + Marp】markdown 記法でプレゼン資料を好きな形式で作成&公開できるようにする](https://zenn.dev/gakin/articles/set_up_marp_on_github_actions)
