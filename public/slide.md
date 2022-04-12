@@ -62,6 +62,19 @@ text
 
 ---
 
+# 数式
+
+$$I_{xx}=\int\int_Ry^2f(x,y)\cdot{}dydx$$
+
+$
+\begin{aligned}
+   a&=b+c \\
+   d+e&=f
+\end{aligned}
+$
+
+---
+
 # 引用
 
 > お世話になります。xxx です。
