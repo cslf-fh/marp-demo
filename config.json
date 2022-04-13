@@ -1,5 +1,5 @@
 {
   "directory": "public",
-  "output_format": "pdf",
+  "output_format": "html",
   "file_name": "slide"
 }
