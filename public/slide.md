@@ -238,7 +238,7 @@ JSON
 
 スライドサイズの半分で分割される
 
-![bg right w:600 h:600](https://picsum.photos/1920?random)
+![bg right w:600 h:600](./images/foo.drawio.svg)
 
 ---
 
