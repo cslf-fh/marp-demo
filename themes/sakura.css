@@ -1,0 +1,97 @@
+/* @theme sakura */
+
+@import 'gaia';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Roboto&display=swap');
+
+/* 
+gaia: #485c66 #fff8e1
+nuxt: #00DC82 #255461
+*/
+section {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "Roboto", 'Noto Sans JP', sans-serif;
+}
+
+section h2 {
+  margin: 0 -72px;
+  padding: 54px 72px 12px;
+  background-color: #00DC82;
+  color: #255461;
+}
+
+section h2:before {
+  content: '';
+  position: absolute;
+  top: 12px;
+  height: 108px;
+  width: 8px;
+  margin: 0 -24px;
+  background-color: #255461;
+}
+
+section.centering h1, section.centering em {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+}
+
+section.list-image li img {
+  margin:0 0 0 8px;
+  vertical-align: middle;
+  height: 48px;
+}
+
+section.heading-image h2 img {
+  margin: 0 12px;
+  height: 56px;
+  vertical-align: text-top;
+} 
+
+section.title__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.title__text h1,section.title__text p {
+  text-align: center;
+}
+
+section.introduction__list li {
+  margin-left: -40px;
+  list-style: none;
+}
+
+section.introduction__list li em {
+  margin: 0 24px 0 0;
+  padding: 4px 16px;
+  border-radius: 24px;
+  background-color: #00DC82;
+  color: #255461;
+  font-weight: bold;
+  font-style: normal;
+}
+
+section.introduction__list li:nth-child(1) em, section.introduction__list li:nth-child(5) em {
+  padding: 4px 124px;
+}
+
+section.introduction__list li:nth-child(2) em, section.introduction__list li:nth-child(3) em {
+  padding: 4px 90px;
+}
+
+section.introduction__list li:nth-child(3) em {
+  visibility: hidden;
+}
+
+section.introduction__list li img {
+  margin:0 0 0 4px;
+  height: 32px;
+  vertical-align: middle;
+}
+
+section.introduction__list li img.emoji {
+  margin-left: 0;
+}
