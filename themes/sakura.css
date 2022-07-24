@@ -34,7 +34,7 @@ section.centering h1, section.centering em {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 50%;
+  height: 45%;
 }
 
 section.list-image li img {

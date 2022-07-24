@@ -190,8 +190,7 @@ _![w:1000](./images/sakura/hint_example.drawio.svg)_
 #### 4. お題のデータ:floppy_disk:
 
 [ファミ通さん](https://www.famitsu.com/news/202203/25255891.html)にて、作者であるジョシュ・ウォードル氏の講演内容が
-記事になってます:smile:
-以下引用:pen:
+記事になってます:smile: 以下引用:pen:
 
 > そこで絞り込みを行うことになるのだが、頻出単語などを抽出していくアルゴリズム的手法はうまくいかず、結局選んだのは人力作戦。当時何か没頭するものを必要としていたパートナーに「知ってる」「知らない」「多分知ってる」の三択で答えるシステムを作り、分類してもらったのだとか。
 
@@ -202,7 +201,7 @@ _![w:1000](./images/sakura/hint_example.drawio.svg)_
 ## 使用技術:wrench:
 
 - フロントエンド : ![h:60](images/sakura/brands/nuxtjs.svg)
-- データベース？ : ![](images/sakura/brands/microcms.svg)
+- コンテンツ管理 : ![](images/sakura/brands/microcms.svg)
 - ホスティング : ![](images/sakura/brands/netlify.svg)
 - スタイリング : ![h:40](images/sakura/brands/tailwindcss.svg) / ![](images/sakura/brands/daisyui.svg)
 
@@ -266,6 +265,7 @@ etc...
 
 - コンポーネントが豊富！
 - テーマも豊富！
+- カスタマイズも自由自在！
 
 ![bg right:40% contain](images/sakura/daisyui.gif)
 
@@ -275,8 +275,7 @@ etc...
 
 ## 本ゲームの構成![](images/sakura/jleague_wordle.png)
 
-- お題の作成
-リクエストの日付を見て判断（無ければ追加）
+お題の取得、追加（追加はリクエストの時刻を見て）
 
 _![w:1500](images/sakura/architecture.drawio.svg)_
 
@@ -350,5 +349,3 @@ return { contents: bar };
 - Atsushi 🇯🇵 DevRel Meetup in 🗼 7/6 様 : [@goofmint](https://twitter.com/goofmint)![h:40](./images/sakura/brands/twitter_logo.png)
 - Marp 様 : [https://marp.app](https://marp.app)
 - diagrams. net 様 : [https://www.diagrams.net](https://www.diagrams.net/)
-- 素晴らしいスクリーンショットとスクリーンレコーダー 様 : [https://www.awesomescreenshot.com](https://www.awesomescreenshot.com)
-- WEBM GIF 変換 - ビデオファイルをオンラインで変換する 様 : [https://www.aconvert.com/jp/video/webm-to-gif](https://www.aconvert.com/jp/video/webm-to-gif/)
