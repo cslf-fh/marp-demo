@@ -23,8 +23,7 @@ cslf-fh
   - そもそもWordleって？
 - 作ろうと思ったきっかけ
 - 使用技術
-  - 技術紹介
-- 本ゲームの構成
+  - 推しポイント
 - さいごに
 
 ---
@@ -189,10 +188,7 @@ _![w:1000](./images/sakura/hint_example.drawio.svg)_
 
 #### 4. お題のデータ:floppy_disk:
 
-[ファミ通さん](https://www.famitsu.com/news/202203/25255891.html)にて、作者であるジョシュ・ウォードル氏の講演内容が
-記事になってます:smile: 以下引用:pen:
-
-> そこで絞り込みを行うことになるのだが、頻出単語などを抽出していくアルゴリズム的手法はうまくいかず、結局選んだのは人力作戦。当時何か没頭するものを必要としていたパートナーに「知ってる」「知らない」「多分知ってる」の三択で答えるシステムを作り、分類してもらったのだとか。
+[ファミ通](https://www.famitsu.com/news/202203/25255891.html)さんにて、作者であるジョシュ・ウォードル氏の講演レポ:smile:
 
 ---
 
@@ -207,7 +203,7 @@ _![w:1000](./images/sakura/hint_example.drawio.svg)_
 
 ---
 
-## 使用技術:wrench:
+## 推しポイント:thumbsup:
 
 ![h:60](images/sakura/brands/nuxtjs.svg)
 
@@ -223,7 +219,7 @@ etc...
 
 ---
 
-## 使用技術:wrench:
+## 推しポイント:thumbsup:
 
 ![h:60](images/sakura/brands/microcms.svg)
 
@@ -239,7 +235,7 @@ etc...
 
 ---
 
-## 使用技術:wrench:
+## 推しポイント:thumbsup:
 
 ![h:60](images/sakura/brands/netlify.svg)
 
@@ -253,7 +249,7 @@ etc...
 
 ---
 
-## 使用技術:wrench:
+## 推しポイント:thumbsup:
 
 ![h:48](images/sakura/brands/tailwindcss.svg)
 
@@ -268,66 +264,6 @@ etc...
 - カスタマイズも自由自在！
 
 ![bg right:40% contain](images/sakura/daisyui.gif)
-
----
-
-<!-- _class: centering heading-image -->
-
-## 本ゲームの構成![](images/sakura/jleague_wordle.png)
-
-お題の取得、追加（追加はリクエストの時刻を見て）
-
-_![w:1500](images/sakura/architecture.drawio.svg)_
-
----
-
-<!-- _class: heading-image -->
-
-## 本ゲームの構成![](images/sakura/jleague_wordle.png)
-
-```ts
-①リクエスト
-const { data } = await useFetch('/api/foo');
-```
-
-```ts
-②お題の取得
-const bar = await $fetch<TYPE>(endpoint, {
-  baseURL: baseUrl,
-  headers: {
-    'X-MICROCMS-API-KEY': apiKey,
-  },
-});
-```
-
-![bg right w:600](images/sakura/architecture.drawio.svg)
-
----
-
-<!-- _class: heading-image -->
-
-## 本ゲームの構成![](images/sakura/jleague_wordle.png)
-
-```ts
-④お題を追加
-await $fetch(endpoint, {
-  method: 'POST',
-  headers: {
-    'Content-Type': 'application/json',
-    'X-MICROCMS-API-KEY': apiKey,
-  },
-  body: {
-    // お題の情報
-  },
-});
-```
-
-```ts
-⑤レスポンス
-return { contents: bar };
-```
-
-![bg right w:600](images/sakura/architecture.drawio.svg)
 
 ---
 
